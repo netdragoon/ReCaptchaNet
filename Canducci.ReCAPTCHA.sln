@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web45", "Web45\Web45.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canducci.ReCAPTCHA45", "Canducci.ReCAPTCHA45\Canducci.ReCAPTCHA45.csproj", "{0F13B98A-32F6-4A80-8033-151FE3B71F1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canducci.ReCAPTCHA451", "Canducci.ReCAPTCHA451\Canducci.ReCAPTCHA451.csproj", "{9FD1DC56-9634-42ED-88B9-683A27796B78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{0F13B98A-32F6-4A80-8033-151FE3B71F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F13B98A-32F6-4A80-8033-151FE3B71F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F13B98A-32F6-4A80-8033-151FE3B71F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD1DC56-9634-42ED-88B9-683A27796B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD1DC56-9634-42ED-88B9-683A27796B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD1DC56-9634-42ED-88B9-683A27796B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD1DC56-9634-42ED-88B9-683A27796B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
