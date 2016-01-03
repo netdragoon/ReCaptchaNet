@@ -1,0 +1,4 @@
+language: csharp
+solution: Canducci.ReCAPTCHA.sln
+before_install:
+  - sudo apt-get install nunit-console
