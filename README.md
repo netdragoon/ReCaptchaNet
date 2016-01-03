@@ -13,6 +13,20 @@ PM> Install-Package CanducciReCaptchaMvc
 
 ##How to?
 
+In web.config add these 4 keys referring to Google Api (`Captcha-Site-Key`, `Captcha-Secrety-Key`, `Captcha-Site-Verify-Url` and `Captcha-Api-Url`). 
+Make your registration in https://www.google.com/recaptcha/intro/index.html site and add the settings the _site key_(Captcha-Site-Key) and _secret key_(Captcha-Secrety-Key).
+
+```Csharp
+<configuration>
+  <appSettings>
+    ...
+    <add key="Captcha-Site-Key" value=""/>
+    <add key="Captcha-Secrety-Key" value=""/>
+    <add key="Captcha-Site-Verify-Url" value="https://www.google.com/recaptcha/api/siteverify"/>
+    <add key="Captcha-Api-Url" value="https://www.google.com/recaptcha/api.js"/>  
+  </appSettings>
+```
+
 Use namespace `using Canducci.ReCAPTCHA;` 
 
 ###Controller
