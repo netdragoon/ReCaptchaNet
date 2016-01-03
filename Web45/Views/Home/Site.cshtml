@@ -1,0 +1,12 @@
+﻿@using Canducci.ReCAPTCHA
+@{
+    ViewBag.Title = "Site";
+}
+<h2>ReCAPTCHA</h2>
+<form method="post">    
+    @Html.ReCaptcha()
+    <input type="text" class="form-control" name="Id" />
+    <input type="text" class="form-control" name="Nome" />
+    <button class="btn btn-primary">Enviar</button>
+</form>
+
